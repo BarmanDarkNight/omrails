@@ -7,6 +7,7 @@ gem 'jquery-rails'
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor' #add RAILS_12
 end
 
 group :development, :test do

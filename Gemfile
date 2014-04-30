@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.0'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
+gem 'protected_attributes'
 
 group :production do
 	gem 'pg'
